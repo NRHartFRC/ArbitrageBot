@@ -1,4 +1,4 @@
-# Arbitrage Trading Bot
+# Arbitrage Trading Bot 💰
 This is an arbitrage trading bot for cryptocurrencies. This <u>smart contract</u> leverages <strong>flashloans</strong> to execute profitable trades on my behalf.
 
 **Demo Sequence:**  
@@ -9,6 +9,8 @@ This is an arbitrage trading bot for cryptocurrencies. This <u>smart contract</u
 5. gained +0.41 WETH (wrapped ETH), which is roughly $663 USD as of SEP2023
 
 ## **Click the thumbnail** to view the demo
-[![Arbitrade](/thumbnail.png)](/demo.mp4)
+[![Arbitrage](/thumbnail.png)](/demo.mp4)
 
-**Note:** Price differential occurs in production environment naturally, as price betweens different markets/exchanges is constantly in flux.
+**Notes:** 
+1. Price differential occurs in production environment naturally, as prices across different markets/exchanges is constantly in flux.
+2. Code redacted intentionally
