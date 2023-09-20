@@ -8,8 +8,12 @@ This is an arbitrage trading bot for cryptocurrencies. This <u>smart contract</u
 4. price differential was manually created using `manipulateprice.js` script
 5. gained +0.41 WETH (wrapped ETH), which is roughly $663 USD as of SEP2023
 
-## **Click the thumbnail** to view the demo
-[![Arbitrage](/thumbnail.png)](/demo.mp4)
+<p align="center">
+  <img src="/thumbnail.png" alt="Arbitrage">
+</p>
+<div align=center><video src="https://github.com/NRHartFRC/ArbitrageBot/assets/122415724/7d61ccd5-7016-4310-9705-e2483340a684" type="video/mp4"></div>
+
+
 
 **Notes:** 
 1. Price differential occurs in production environment naturally, as prices across different markets/exchanges is constantly in flux.
