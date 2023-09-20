@@ -1,5 +1,5 @@
-# Arbitrage Trading Bot 💰
-This is an arbitrage trading bot for cryptocurrencies. This <u>smart contract</u> leverages <strong>flashloans</strong> to execute profitable trades on my behalf.
+# Arbitrage Trading Bot
+This is an arbitrage trading bot for cryptocurrencies. This <u>smart contract</u> leverages <strong>flashloans</strong> to execute profitable trades on my behalf. 💰
 
 **Demo Sequence:**  
 1. deployed solidity smart contracts to the "blockchain" (before video)
