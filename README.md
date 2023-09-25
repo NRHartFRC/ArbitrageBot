@@ -1,12 +1,22 @@
 # Arbitrage Trading Bot
 This is an arbitrage trading bot for cryptocurrencies. This <u>smart contract</u> leverages <strong>flashloans</strong> to execute profitable trades on my behalf. 💰
 
+Arbi-what? Flash-who? Arbitrage is a condition where an underlying asset is listed for two different prices on two different exchanges. A flashloan is a financial service that allows a user to borrow large amounts of money as long as they are returned in the same transaction.
+
+How? Well the algorithm checks the prices of an ERC-20 token on different exchanges, determines the trade direction, determines profitability, then executes if and when specified conditions are met.
+
+<div align=center><img src="./arbitragealgorithm.png" height="500px" width="350px"></div>
+
+The algorithm ① buys ERC-20 tokens through Market A, then the ② bot receives the procured cryptocurrency (ERC-20 token), then the ③ bot 'swaps' the ERC-20 tokens from Market A for those in Market B, then the bot ④ sells the tokens for profit!
+
 **Demo Sequence:**  
 1. deployed solidity smart contracts to the "blockchain" (before video)
 2. ran a development framework that emulated a live blockchain (ganache)
 3. executed the `bot.js` script that waited for an arbitrage event
 4. price differential was manually created using `manipulateprice.js` script
 5. gained +0.41 WETH (wrapped ETH), which is roughly $663 USD as of SEP2023
+
+Tap to view the video demo!
 
 <p align="center">
   <img src="/thumbnail.png" alt="Arbitrage">
