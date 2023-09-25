@@ -7,7 +7,7 @@ How? Well the algorithm checks the prices of an ERC-20 token on different exchan
 
 <div align=center><img src="./arbitragealgorithm.png" height="500px" width="350px"></div>
 
-The algorithm ① buys ERC-20 tokens through Market A, then the ② bot receives the procured cryptocurrency (ERC-20 token), then the ③ bot 'swaps' the ERC-20 tokens from Market A for those in Market B, then the bot ④ sells the tokens for profit!
+The algorithm, or 'smart contract', is deployed to the blockchain Here, it behaves like a bot on high alert. When the bot discovers arbitrage, it ① buys ERC-20 tokens through Market A (relatively low priced token), the ② bot receives the ERC-20 tokens, then the ③ bot 'swaps' the ERC-20 tokens from Market A for those in Market B (relatively high price), then the bot ④ sells the higher valued tokens for profit!
 
 **Demo Sequence:**  
 1. deployed solidity smart contracts to the "blockchain" (before video)
@@ -16,13 +16,12 @@ The algorithm ① buys ERC-20 tokens through Market A, then the ② bot receives
 4. price differential was manually created using `manipulateprice.js` script
 5. gained +0.41 WETH (wrapped ETH), which is roughly $663 USD as of SEP2023
 
-Tap to view the video demo!
-
 <p align="center">
   <img src="/thumbnail.png" alt="Arbitrage">
 </p>
+Tap below to view the video demo!
 <div align=center><video src="https://github.com/NRHartFRC/ArbitrageBot/assets/122415724/7d61ccd5-7016-4310-9705-e2483340a684" type="video/mp4"></div>
 
 **Notes:** 
-1. Price differential occurs in production environment naturally, as prices across different markets/exchanges is constantly in flux.
+1. Price differential occurs in production environment naturally, as prices across different markets and exchanges are constantly in flux.
 2. Code redacted intentionally
